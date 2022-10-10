@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  padding: 0 10%;
+}
+
+li,
+a {
+  font-family: sans-serif;
+  color: #16161d;
+  text-decoration: none;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 10%;
+  position: fixed;
+  width: 100%;
+}
+
+.home_logo a img {
+  max-height: 1.5rem;
+  vertical-align: middle;
+}
+
+nav {
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #a4a4a4;
+  margin: 1rem;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #000000;
+}
+
+.active {
+  color: #000000;
+}
+
+.gallery-titles {
+  padding: 2rem;
+}
+
+.gallery-titles h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.gallery-words {
+  padding: 2rem;
+}
+
+.gallery-words p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.2rem;
+  color: #16161d;
+}
+
+.screenshot_image img {
+  max-width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+.screenshot_image img:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
