@@ -20,9 +20,11 @@ header {
   width: 100%;
 }
 
-.home_logo a img {
-  max-height: 1.5rem;
-  vertical-align: middle;
+.home_logo a{
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  font-size: 1.2rem;
 }
 
 nav {
@@ -63,7 +65,7 @@ nav ul li a:hover {
 }
 
 .gallery-words p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.2rem;
   color: #16161d;
 }
