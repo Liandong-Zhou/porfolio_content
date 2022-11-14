@@ -106,9 +106,11 @@ main {
 .background-image {
   width: 100%;
   height: 300px;
-  background-image: url(/porfolio_content-main/image/background-image.png);
+  background-image: url(../image/background-image.png);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000000;
   margin: 0 auto;
 }
 
