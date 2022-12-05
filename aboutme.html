@@ -18,6 +18,7 @@
     <title>AboutMe</title>
   </head>
   <body class="aboutme-grid">
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
       <div class="home_logo">
         <a href="index.html"> SUBSTANCES (2022) </a>
@@ -29,9 +30,11 @@
           <li><a href="process.html">process</a></li>
           <li><a href="aboutme.html" class="active">about me</a></li>
         </ul>
-      </nav>
+      </nav>  
     </header>
     <main>
+      <div class="push"></div>
+
       <p>
         I studied Interdisciplinary computing and the arts major in the UCSD. I
         used to be a new media artist from Shenzhen, China. Through emerging
@@ -65,15 +68,23 @@
       <br />
       <p>
         Now, I am actively seeking for UX/UI Internships for Summer 2023 : )
-        Feel
+        Feel free to contact me!
+        <p>
+          <a href="mailto:zhould58277@outlook.com"><i class="fa-solid fa-envelope"></i>my email</a>
+        </p>
       </p>
+      <img src="../image/aboutme.png" alt="Self-Image" style="width: 80%; max-width: 400px; margin: auto;">
     </main>
     <aside>
-      <p>free to contact me!</p>
-      <br />
-      <p>
-        <a href=""><i class="fa-solid fa-envelope"></i>my email</a>
-      </p>
+      <div class="special"></div>
+      <form
+        action="https://formspree.io/f/maykrywz"
+        method="POST"      >
+        <label>Your email:<input type="email" name="email"></label>
+        <br>
+        <label>Your name:<input type="text" name="name"></label>
+        <button type="submit">Send</button>
+      </form>
     </aside>
     <footer>
       <p>Liandong Zhou's website © 2022</p>
